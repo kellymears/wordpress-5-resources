@@ -1,0 +1,24 @@
+site_name: WP 5 Dev Resources
+theme:
+  name: 'material'
+  font: 
+    text: 'IBM Plex Sans'
+    code: 'IBM Plex Mono'
+  logo:
+    icon: 'code'
+extra_css:
+  - 'stylesheets/extra.css'
+extra_javascript:
+  - 'javascripts/extra.js'
+markdown_extensions:
+  - smarty
+  - toc:
+      permalink: True
+  - codehilite
+  - admonition
+  - footnotes
+nav:
+  - About: index.md
+  - SCSS Packs:
+    - Introduction: scss-packs/index.md
+    - Tailwind: scss-packs/tailwind.md
